@@ -1,0 +1,21 @@
+{
+  "name": "qa-automation-google-map-ui",
+  "version": "1.0.0",
+  "description": "Please pick at least 4 different addresses to search in google maps. Your code must be able to run on our test devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium --reporter=html",
+    "firefoxTest": "npx playwright test --project=firefox --reporter=html",
+    "chromeTest": "npx playwright test --project=chrome --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://berbob-gmbh-yfuucg@git.codesubmit.io/berbob-gmbh/qa-automation-uhxazg"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.21.1"
+  }
+}
