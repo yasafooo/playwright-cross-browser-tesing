@@ -1,7 +1,3 @@
-### Technology stack I Use
-Languages	JS
-UI technology/Test run framework	Playwright
-
 ### Install PlayWright and PlaywrightTest
 npm install
 npx playwright install
