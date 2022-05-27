@@ -1,6 +1,5 @@
 ### Install PlayWright and PlaywrightTest
-npm install
-npx playwright install
+npm install && npx playwright install
 
 ### Run PlayWright Test
 npm test
